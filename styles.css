@@ -1,0 +1,337 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+p {
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.container-block{
+    align-items: flex-start;
+}
+
+.hero-section {
+    padding-top: 242px;
+    padding-bottom: 242px;
+    display: flex;
+    flex-direction: column;
+}
+  
+.hero-section.centered {
+    display: flex;
+    padding-top: 195px;
+    padding-bottom: 195px;
+    justify-content: flex-start;
+    border-bottom-style: solid;
+    border-bottom-width: 4px;
+    border-bottom-color: #192024;
+    background-image: url("photos/thlbHeader.jpg");
+    background-size: cover;
+    text-align: center;
+}
+
+.hero-heading {
+    margin-bottom: 30px;
+    color: white;
+    font-size: 70px;
+    line-height: 70px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.hero-subheading {
+    margin-bottom: 40px;
+    color: #2e9dff;
+    font-size: 25px;
+    line-height: 25px;
+    font-weight: 300;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.text-background {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(9, 20, 31, 0.6));
+}
+
+.button {
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-top: 12px;
+    padding-right: 30px;
+    padding-bottom: 12px;
+    padding-left: 30px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    background-color: #69b9ff;
+    transition-property: background-color;
+    transition-duration: 300ms;
+    transition-timing-function: ease;
+    color: white;
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border:none;
+}
+  
+.button:current {
+    background-color: #2e80b6;
+}
+
+/* Change background color of buttons on hover */
+.button:hover {
+    background-color: #2e9dff;
+}
+
+.hollow-button {
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: white;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: white;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: white;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-left-color: white;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    background-color: transparent;
+    transition-property: background-color, border, color;
+    transition-duration: 300ms, 300ms, 300ms;
+    transition-timing-function: ease, ease, ease;
+    color: white;
+    line-height: 21px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+  
+.hollow-button:hover {
+    border-top-color: #2e9dff;
+    border-right-color: #2e9dff;
+    border-bottom-color: #2e9dff;
+    border-left-color: #2e9dff;
+    color: #2e9dff;
+}
+  
+.hollow-button.all-caps {
+    text-transform: uppercase;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    padding-top: 80px;
+    padding-right: 10px;
+    padding-bottom: 80px;
+    padding-left: 10px;
+    background-color: white;
+    text-align: center;
+}
+
+.section-title {
+    margin-bottom: 60px;
+}
+
+.section-heading {
+    margin-top: 0px;
+    margin-bottom: 16px;
+}
+  
+.section-heading.centered {
+    color: #676770;
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.section-subheading.center {
+  color: #8e8e9c;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.columns, .columns-container {
+    display: flex;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.columns-container{
+    justify-content: space-between;
+}
+
+.columns{
+    flex: 1;
+}
+
+.box {
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #dcebf7;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: #dcebf7;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #dcebf7;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-left-color: #dcebf7;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: white;
+    text-align: center;
+    max-width: 500px;
+}
+
+.box-heading{
+    color: #6a859c;
+    width: auto;
+    height: auto;
+    font-size: 38px;
+    line-height: 24px;
+}
+
+.box-subheading{
+    color: #676770;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.section-heading.accent{
+    color: white;
+    text-align: center;
+}
+
+.section-subheading.accent{
+    padding-bottom: 0px;
+    color: #e8e8e8;
+}
+
+.section.accent{
+    background-color: #192024;
+}
+
+.fullWidth-image{
+    display: inline-block;
+    margin-bottom: 20px;
+    max-width: 100%;
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    mask-image: linear-gradient(to bottom, rgba(19,20,24,0.5) 0%,rgba(0,0,0,0.65) 100%);
+    -webkit-mask-image: linear-gradient(to bottom, rgba(19,20,24,0.9) 0%,rgba(0,0,0,0.77) 100%);
+}
+
+.white-text {
+    margin-bottom: 20px;
+    color: white;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.white-text.heading {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+}
+
+.box.transparent {
+    border-style: none;
+    background-color: transparent;
+}
+
+.tabs-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+    width: 1200px;
+}
+
+.tab {
+    overflow: hidden;
+    border: 1px;
+}
+  
+  /* Style the buttons that are used to open the tab content */
+.button.tablinks{
+    float: left;
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+.button.tablinks:hover {
+    background-color: #2e80b6;
+}
+  
+  /* Create an active/current tablink class */
+.button.tablinks.active {
+    background-color: #2e80b6;
+    transition-property: background-color;
+    transition-duration: 300ms;
+    transition-timing-function: ease;
+}
+  
+  /* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.tablinks.hollow-button.accent {
+    background-color: #192024
+}
+

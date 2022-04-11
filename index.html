@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theta Lambda Beta</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+
+<body>
+    <!--<header>
+        <h1>PENDING HEADER NAV TAB</h1>
+    </header>-->
+
+    <div class = "hero-section centered">
+        <div class = "container">
+            <div class = "">
+                <h1 class = "hero-heading text-background">Theta Lambda Beta</h1>
+                <p class = "hero-subheading text-background">Strive to be the best, Rise above the rest</p>
+            </div>
+            
+            <div class = "container-block">
+                <button type="button" class = "button" onclick = "location.href='https://www.instagram.com/uicthlb/?hl=en';">Contact Us</button>
+                <button type="button" class = "hollow-button all-caps" onClick="document.getElementById('about-us').scrollIntoView();">Learn More</button>
+            </div>
+        </div>
+    </div>
+
+    <div class = "section" id="about-us">
+        <div class = "container">
+            <div class = "section-title">
+                <h2 class="section-heading centered">What we do</h2>
+                <p class="section-subheading center">Our Achievements</p>
+            </div>
+
+            <div class = "columns-container">
+                <div class = "columns">
+                    <div class="box">
+                        <h1 class = "box-heading">3</h1>
+                        <h3 class = "box-subheading">Fraternity <br>of the year <br> awards</h3>
+                    </div>
+                </div>
+
+                <div class = "columns">
+                    <div class="box">
+                        <h1 class = "box-heading">116</h1>
+                        <h3 class = "box-subheading">Brothers <br>of the<br> fraternity</h3>
+                    </div>
+                </div>
+
+                <div class = "columns">
+                    <div class="box">
+                        <h1 class = "box-heading">$25000+</h1>
+                        <h3 class = "box-subheading">Money raised <br>for<br> philanthropy</h3>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class = "section accent">
+        <div class = "container">
+            <div class = "section-title">
+                <h2 class="section-heading centered accent">Our Main Pillars</h2>
+                <p class="section-subheading center accent">A representation of our core values</p>
+            </div>
+
+            <div class = "columns-container">
+                <div class = "columns">
+                    <div class="box transparent">
+                        <img class = "fullWidth-image" src = "photos/thlbStairs.jpg">
+                        <h3 class = "white-text heading">Truth</h3>
+                        <p class = "white-text">We, the brothers of Theta Lambda Beta, have faith that we will stay 
+                            true and honest with one another.  As brothers, it is important that 
+                            we remain upfront, truthful, and respectful when addressing 
+                            personal matters or business within the Fraternity. Upholding this 
+                            value not only helps us improve as a Fraternity, but as individuals as 
+                            well.</p>
+                            <button type="button" class = "hollow-button all-caps" onClick="document.getElementById('about-us').scrollIntoView();">Our History</button>
+                    </div>
+                </div>
+    
+                <div class = "columns">
+                    <div class="box transparent">
+                        <img class = "fullWidth-image" src = "photos/thlbMicrophone.jpg">
+                        <h3 class = "white-text heading">Leadership</h3>
+                        <p class = "white-text">We, the brothers of Theta Lambda Beta, will always strive to be the 
+                            best, and rise above the rest. As a Fraternity, we maintain a high 
+                            standard to do our best in the classroom, Fraternity, and overall 
+                            bettering ourselves. We firmly believe that, as a brother of Theta 
+                            Lambda Beta, there is nothing that we cannot accomplish.</p>
+                            <button type="button" class = "hollow-button all-caps" onClick="document.getElementById('about-us').scrollIntoView();">What have we accomplished</button>
+                    </div>
+                </div>
+    
+                <div class = "columns">
+                    <div class="box transparent">
+                        <img class = "fullWidth-image" src = "photos/thlbSitting.jpg">
+                        <h3 class = "white-text heading">Brotherhood</h3>
+                        <p class = "white-text">We, the brothers of Theta Lambda Beta, will always work together 
+                            and be there for one another in time of need. As brothers, this is 
+                            our most important pillar. We will always be there for a brother 
+                            when needed, and will always stick together through the good and 
+                            the bad. A strong brotherhood with individuals willing to do what 
+                            they can to uphold our values and upkeep our goals represents the
+                            bond that we have that will never die.</p>
+                            <button type="button" class = "hollow-button all-caps" onClick="location.href='https://www.instagram.com/uicthlb/?hl=en';">How do I join</button>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class = "section">
+        <div class = "container">
+            <div class = "section-title">
+                <h2 class="section-heading centered">Our History</h2>
+                <p class="section-subheading center">A quick glimpse into our foundations</p>
+            </div>
+
+            <div class = "tabs-container">
+                <!-- Tab links -->
+                <div class="tab">
+                    <button class="tablinks hollow-button accent" onclick="openTab(event, 'missionStatement')">Mission Statement</button>
+                    <button class="tablinks hollow-button accent" onclick="openTab(event, 'fraternityHistory')">Fraternity History</button>
+                    <button class="tablinks hollow-button accent" onclick="openTab(event, 'FAQ')">Frequently Asked Questions</button>
+                </div>
+                
+                <!-- Tab content -->
+                <div id="missionStatement" class="tabcontent">
+                    <h3>Mission Statement</h3>
+                    <p>We, the brothers of Theta Lambda Beta, vow to uphold the principles that 
+                        represent this fraternity. We shall advocate the growth and respectability 
+                        of each member. Our goals are to demonstrate high performance in the classroom 
+                        and increased involvement in campus, community, and nation. We strive for the 
+                        values of Truth, Leadership, and Brotherhood, as well as acknowledge cultural 
+                        awareness within the Asian American community. The skills we acquire will be vital 
+                        for our experiences beyond the years of higher learning. Respect is among our 
+                        greatest values; therefore any resolutions and judgments shall not take religion, 
+                        nor race into account.</p>
+                </div>
+                
+                <div id="fraternityHistory" class="tabcontent">
+                    <h3>Fraternity History</h3>
+                    <p>In the year 2010, 11 great men sought out an opportunity to establish an everlasting brotherhood. 
+                        The vision of this organization teaches the values of truth, leadership, and most of all brotherhood. 
+                        They felt the need in forming an Asian-American Awareness organization as well as spread Asian-American 
+                        knowledge in themselves and to the community. From this combined vision, these men came forth and created 
+                        Theta Lambda Beta Fraternity Incorporated at the University of Illinois at Chicago on September 20th, 2010.</p>
+                </div>
+                
+                <div id="FAQ" class="tabcontent">
+                    <h3>FAQ</h3>
+
+                    <h3>What Are Our Three Main Pillars?</h3>
+                    <p>Truth, Leadership and Brotherhood. 
+                        Every brother of our fraternity upholds these three main values in an 
+                        effort to better serve our community and improve ourselves</p>
+
+                    <h3>What is our Philanthropy?</h3>
+                    <p>Our philanthropy is Lupus. Lupus is a rare auto-immune disease in which the body's 
+                        immune system mistakenly attacks healthy tissue. One of our founders had lupus, and we 
+                        hope to spread awareness about this disease to our community</p>
+
+                    <h3>What do we do besides community service and Philanthropy events?</h3>
+                    <p>We also step and stroll. Stepping and Strolling is derived from the Divine 9 organizations, 
+                        from which all other fraternal cultural orgs build upon. We also host brotherhood and alumni events</p>
+
+                    <h3>How do we get Theta Lambda Beta to join our college campus?</h3>
+                    <p>You can email us @thlb.uic.president@gmail.com and our E-Board and 
+                        National Board can discuss more information</p>
+
+                    <h3>How do I join Theta Lambda Beta?</h3>
+                    <p>You can follow our instagram page @uicthlb to stay up to date with our recruitment events</p>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
